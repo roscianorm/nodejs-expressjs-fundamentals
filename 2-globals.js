@@ -10,6 +10,7 @@
 
 console.log(__dirname)
 console.log(__filename)
+console.log(module) // Podemos ver lo que estamos exportando con esto
 
 // Solo imprime una vez
 setTimeout(() => {
