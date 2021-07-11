@@ -1,9 +1,7 @@
-const amount = 9
+// GLOBALS - NO WINDOW !!!!
 
-if (amount < 10) {
-  console.log('Small number')
-} else {
-  console.log('Large number')
-}
-
-console.log(`Hey it's my first node app!!!`)
+// __dirname  - path to current directory
+// __filename - file name
+// require    - function to use modules (CommonJS)
+// modules    - info about current module (file)
+// process    - info about env where the program is being executed
