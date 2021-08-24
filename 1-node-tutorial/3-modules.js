@@ -1,7 +1,7 @@
 // CommonJS, every file is module (by default)
 // Modules - Encapsulated Code (only share minimum)
 
-// Cada vez que importemos nuestros propios modulos debemos utilizar el ./ porque siempre habran modulos globales y otros que haran uso de las rutas relativas
+// Cada vez que importemos archivos de JS elaborados por nosotros mismos debemos utilizar el ./ porque siempre habran modulos globales y otros que haran uso de las rutas relativas
 const names = require('./4-names')
 // console.log(names)
 

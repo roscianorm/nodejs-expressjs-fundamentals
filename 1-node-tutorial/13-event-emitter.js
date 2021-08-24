@@ -12,16 +12,16 @@ const customEmitter = new EventEmitter()
 
 // Creamos el event listener
 customEmitter.on('response', () => {
-  console.log(`Data received`)
+	console.log(`Data received`)
 })
 
 // Capturamos los parametros y hacemos algo con ellos
 customEmitter.on('response', (name, id) => {
-  console.log(`Data received, name: ${name} / id: ${id}`)
+	console.log(`Data received, name: ${name} / id: ${id}`)
 })
 
 customEmitter.on('response', () => {
-  console.log(`Some other logic here`)
+	console.log(`Some other logic here`)
 })
 
 // Generamos el evento

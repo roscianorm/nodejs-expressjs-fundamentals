@@ -3,20 +3,20 @@ const app = express()
 
 // Home
 app.get('/', (req, res) => {
-  res.status(200).send('Welcome to the home page!')
+	res.status(200).send('Welcome to the home page!')
 })
 // About
 app.get('/about', (req, res) => {
-  res.status(200).send('Welcome to the about page!')
+	res.status(200).send('Welcome to the about page!')
 })
 // 404
 // Este va a ser como el default, todos los request que no esten configurados caeran aca
 app.all('*', (req, res) => {
-  res.status(404).send('<h1>Welcome to the 404 page!</h1>')
+	res.status(404).send('<h1>Welcome to the 404 page!</h1>')
 })
 
 app.listen(5000, () => {
-  console.log(`Server is listening on port 5000...`)
+	console.log(`Server is listening on port 5000...`)
 })
 
 // app.get

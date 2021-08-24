@@ -14,10 +14,10 @@ console.log(module) // Podemos ver lo que estamos exportando con esto
 
 // Solo imprime una vez
 setTimeout(() => {
-  console.log('Hello World!')
+	console.log('Hello World!')
 }, 500)
 
 // Imprime cada segundo
 setInterval(() => {
-  console.log('Hello World!')
+	console.log('Hello World!')
 }, 1000)

@@ -1,10 +1,10 @@
 const express = require('express')
 const {
-  getPeople,
-  createPerson,
-  createPersonPostman,
-  updatePerson,
-  removePerson,
+	getPeople,
+	createPerson,
+	createPersonPostman,
+	updatePerson,
+	removePerson,
 } = require('../controllers/people')
 
 const router = express.Router()
